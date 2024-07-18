@@ -1,4 +1,4 @@
-name: Terraform-Lint
+uname: Terraform-Lint
 on:
   push:
     branches: [ master ]
@@ -6,7 +6,7 @@ on:
 
 jobs:
   tflint:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
