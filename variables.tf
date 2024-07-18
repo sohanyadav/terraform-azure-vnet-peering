@@ -134,3 +134,4 @@ variable "vnet_diff_subs_id" {
   description = "The id of the remote virtual network."
 }
 
+
